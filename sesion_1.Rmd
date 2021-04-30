@@ -554,7 +554,7 @@ Además resulta mucho **más fácil compartir** nuestro trabajo de esta manera.
 
 --
 
-Para ejecutar el código en *script* puedes utilizar el *shortcut* .pur[Ctrl + Enter].
+Para ejecutar el código en *script* puedes utilizar el *shortcut* .pur[Ctrl + Enter]. (en Mac Command + Enter)
 
 --
 
@@ -606,7 +606,7 @@ Se pueden hacer cosas mucho más interesantes. Para eso es útil **asignar valor
 
 --
 
-Para esto se utiliza el operador "**<-**" (shortcut **"Alt + -**") 
+Para esto se utiliza el operador "**<-**" (W: shortcut **"Alt + -**" /Mac:  **"option + -"**) 
 
 --
 
