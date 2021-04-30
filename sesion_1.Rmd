@@ -350,7 +350,7 @@ background-position: 100% 0%
 
 --
 
-Se puede contectar con una comunidad local y global de usuarios a traves de **grupos de usurios**, twitter <img src="https://img.icons8.com/fluent/22/000000/twitter.png"/>. Además se puede obtener ayuda de expertos utilizando [stackoverflow](https://stackoverflow.com/questions/tagged/r).
+Se pueden conectar con una comunidad local y global de usuarios a traves de **grupos de usurios**, twitter <img src="https://img.icons8.com/fluent/22/000000/twitter.png"/>. Además se puede obtener ayuda de expertos utilizando [stackoverflow](https://stackoverflow.com/questions/tagged/r).
 
 --
 
@@ -358,7 +358,7 @@ En Chile la comunidad de R se ha organizado en torno al [Grupo de Usuarios de R 
 
 --
 
-Anaualmente se realizan conferencias de a nivel mundial [UseR!](https://user2020.r-project.org/) y a nivel latinoamericano [Latin-R](http://latin-r.com).
+Anualmente se realizan conferencias de a nivel mundial [UseR!](https://user2020.r-project.org/) y a nivel latinoamericano [Latin-R](http://latin-r.com).
 
 --
 
@@ -430,7 +430,7 @@ background-position: 100% 0%
 
 --
 
-- [Reclasificación de la no respuesta: distinción entre la no respuesta al ítem y la no respuesta a l unidad](https://www.ine.cl/docs/default-source/documentos-de-trabajo/190320-documento-reclasificacion-de-la-no-respuesta-viii-epf.pdf?sfvrsn=e680d877_2)
+- [Reclasificación de la no respuesta: distinción entre la no respuesta al ítem y la no respuesta a la unidad](https://www.ine.cl/docs/default-source/documentos-de-trabajo/190320-documento-reclasificacion-de-la-no-respuesta-viii-epf.pdf?sfvrsn=e680d877_2)
 
 --
 
@@ -567,6 +567,10 @@ El signo **#** también sirve para **silenciar** código sin tener que borrarlo.
 --
 
 👀 Con el *shortcut* .pur[Crtl +Shift + c] puedes **silenciar** varias lineas a la vez.
+
+--
+
+Es posible crear secciones en un script cerrando un comentario con (#### o ---- o ====).
 
 ---
 
@@ -887,7 +891,7 @@ typeof(b)
 
 --
 
-.medium-par[Que los vectores sea atómicos ⚛️ significa que .medium-par-red[solo pueden contener un tipo de datos.]]
+.medium-par[Que los vectores sean atómicos ⚛️ significa que .medium-par-red[solo pueden contener un tipo de datos.]]
 
 ---
 
@@ -1618,7 +1622,7 @@ table(data$nombre)
 
 --
 
-También podemos pedir la proporción, aplicando aplicando `prop.table()` sobre `table()`.
+También podemos pedir la proporción, aplicando `prop.table()` sobre `table()`.
 
 --
 
