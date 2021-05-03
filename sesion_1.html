@@ -1,18 +1,15 @@
----
-title: "Capacitación en R y herramientas de productividad"
-subtitle: "Sesión 1"  
-author: 
-date: '`r Sys.Date()`'
-output:
-  xaringan::moon_reader:
-    seal: false
-    #lib_dir: libs
-    css: xaringan-themer.css
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: False
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Capacitación en R y herramientas de productividad</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="date" content="2021-05-03" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
 
 class: center, middle
 
@@ -20,7 +17,7 @@ class: center, middle
 .linea-inferior[]
 
 
-<img src="imagenes/logo_portada2.png" width="200" />
+&lt;img src="imagenes/logo_portada2.png" width="200" /&gt;
 
 
 ## Capacitación en R y herramientas de productividad
@@ -31,19 +28,9 @@ class: center, middle
 
 ### Abril 2021
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = TRUE)
-knitr::opts_chunk$set(message = FALSE) 
-```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-#style_duo_accent(
- # primary_color = "#1381B0",
-  #secondary_color = "#FF961C",
-  #inverse_header_color = "#FFFFFF"
-#)
-```
+
+
 
 
 ---
@@ -130,7 +117,7 @@ background-position: 100% 0%
 # Organización de la capacitación
 
 --
-<br/>
+&lt;br/&gt;
 
 - La capacitación de nivel básico se compone de **6 sesiones**.
 
@@ -159,7 +146,7 @@ background-position: 100% 0%
 # Organización de la capacitación
 
 --
-<br/>
+&lt;br/&gt;
 
 - Compartiremos cada presentación antes al inicio de la sesión. Si existen correcciones detectadas, actualizaremos el repositorio durante la semana posterior.
 
@@ -224,7 +211,7 @@ background-position: 100% 0%
 # Contenidos de la capacitación
 
 --
-</br>
+&lt;/br&gt;
 
 **Sesión 1:** Introducción y herramientas de exploración de datos
 
@@ -252,7 +239,7 @@ background-position: 100% 0%
 # Contenidos de la capacitación
 
 --
-</br>
+&lt;/br&gt;
 
 **Sesión 3:** Procesamiento de bases de datos (2)
 
@@ -283,7 +270,7 @@ background-position: 100% 0%
 # Contenidos de la capacitación
 
 --
-</br>
+&lt;/br&gt;
 
 **Sesión 6:** En camino a la reproducibilidad
 
@@ -316,7 +303,7 @@ background-position: 100% 0%
 # ¿Qué es R y por qué usarlo?
 
 --
-<br/>
+&lt;br/&gt;
 
 **R** es un lenguaje de programación creado por dos profesores de estadística de la Universidad de Auckland en 1993 (**Robert Gentleman y Ross Ihaka**).
 
@@ -350,7 +337,7 @@ background-position: 100% 0%
 
 --
 
-Se pueden conectar con una comunidad local y global de usuarios a traves de **grupos de usurios**, twitter <img src="https://img.icons8.com/fluent/22/000000/twitter.png"/>. Además se puede obtener ayuda de expertos utilizando [stackoverflow](https://stackoverflow.com/questions/tagged/r).
+Se pueden conectar con una comunidad local y global de usuarios a traves de **grupos de usurios**, twitter &lt;img src="https://img.icons8.com/fluent/22/000000/twitter.png"/&gt;. Además se puede obtener ayuda de expertos utilizando [stackoverflow](https://stackoverflow.com/questions/tagged/r).
 
 --
 
@@ -382,11 +369,11 @@ background-position: 100% 0%
 
 --
 
-.pull-left[<img src="https://github.com/kjhealy/england_wales_pop/raw/master/figures/eng-wa-pop-pyr-labs-opt.gif" width="350"/>]
+.pull-left[&lt;img src="https://github.com/kjhealy/england_wales_pop/raw/master/figures/eng-wa-pop-pyr-labs-opt.gif" width="350"/&gt;]
 
 --
 
-.pull-right[<img src="https://revolution-computing.typepad.com/.a/6a010534b1db25970b01b8d1a4d670970c-pi" height="300" width="400"/>]
+.pull-right[&lt;img src="https://revolution-computing.typepad.com/.a/6a010534b1db25970b01b8d1a4d670970c-pi" height="300" width="400"/&gt;]
 
 ---
 
@@ -402,7 +389,7 @@ background-position: 100% 0%
 
 --
 
-.center[<img src="imagenes/ipp.PNG" width="400"/>]
+.center[&lt;img src="imagenes/ipp.PNG" width="400"/&gt;]
 
 ---
 
@@ -450,7 +437,7 @@ class: center, middle
 
 .big-par[Ahora abramos RStudio]
 
-<img src="https://media0.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.webp?cid=ecf05e4764sdgx6wh23uc6xzgr9hh8wm3mjv5c6lr2bqyejp&rid=giphy.webp" width="300" />
+&lt;img src="https://media0.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.webp?cid=ecf05e4764sdgx6wh23uc6xzgr9hh8wm3mjv5c6lr2bqyejp&amp;rid=giphy.webp" width="300" /&gt;
 
 ---
 
@@ -508,7 +495,7 @@ En **RStudio** corresponde al panel ubicado abajo a la izquierda.
 
 --
 
-El símbolo `>` significa que **R** está listo para que le entreguemos una instrucción a ejecutar.
+El símbolo `&gt;` significa que **R** está listo para que le entreguemos una instrucción a ejecutar.
 
 --
 
@@ -588,16 +575,31 @@ background-position: 100% 0%
 
 Pruébenlo ustedes mismos en su consola o script.
 
-```{r}
+
+```r
 4 + 5
 ```
 
-```{r}
+```
+## [1] 9
+```
+
+
+```r
 6 * 8
 ```
 
-```{r}
+```
+## [1] 48
+```
+
+
+```r
 (4 + 5) + (6 * 8)
+```
+
+```
+## [1] 57
 ```
 
 --
@@ -606,12 +608,13 @@ Se pueden hacer cosas mucho más interesantes. Para eso es útil **asignar valor
 
 --
 
-Para esto se utiliza el operador "**<-**" (W: shortcut **"Alt + -**" /Mac:  **"option + -"**) 
+Para esto se utiliza el operador "**&lt;-**" (W: shortcut **"Alt + -**" /Mac:  **"option + -"**) 
 
 --
 
-```{r}
-x <- 5
+
+```r
+x &lt;- 5
 ```
 
 ---
@@ -628,19 +631,29 @@ Entonces, podríamos hacer cosas como esta.
 
 --
 
-```{r}
-a <- 20
-b <- 5
+
+```r
+a &lt;- 20
+b &lt;- 5
 
 a + b
+```
+
+```
+## [1] 25
 ```
 
 --
 
 El signo "**^**" representa al exponencial. También se puede usar "******"
 
-```{r}
+
+```r
 a + b ^ 2
+```
+
+```
+## [1] 45
 ```
 
 --
@@ -657,7 +670,7 @@ background-position: 100% 0%
 # Ejercicio express 1
 
 --
-<br/>
+&lt;br/&gt;
 
 .medium-par[1- ¿Qué sucede si cambiamos el valor de "a" por 45 y volvemos a realizar la última operación?]
 
@@ -687,25 +700,40 @@ O también operaciones sencillas. Por ejemplo:
 
 --
 
-```{r}
+
+```r
 3 + 3
+```
+
+```
+## [1] 6
 ```
 
 --
 
 Es lo mismo que utilizar la función `sum()`
 
-```{r}
+
+```r
 sum(3,3)
+```
+
+```
+## [1] 6
 ```
 
 --
 
 Pero `sum()` es una función muy versátil y más potente.
 
-```{r}
-x <- c(1,3,5,6,8,9,18,20)
+
+```r
+x &lt;- c(1,3,5,6,8,9,18,20)
 sum(x)
+```
+
+```
+## [1] 70
 ```
 
 ---
@@ -718,25 +746,46 @@ background-position: 100% 0%
 
 ## R contiene variadas funciones matemáticas
 
-```{r}
+
+```r
 sqrt(4) # raíz cuadrada
 ```
 
-```{r}
-round(9.556789) # aproximar
+```
+## [1] 2
 ```
 
 
-```{r}
+```r
+round(9.556789) # aproximar
+```
+
+```
+## [1] 10
+```
+
+
+
+```r
 floor(9.556789) # truncar
+```
+
+```
+## [1] 9
 ```
 
 --
 
 **Las funciones tienen argumentos**, y podemos consultarlos con la función `args()`
 
-```{r}
+
+```r
 args(round)
+```
+
+```
+## function (x, digits = 0) 
+## NULL
 ```
 
 ---
@@ -751,8 +800,13 @@ background-position: 100% 0%
 
 El argumento "digits" me permite indicarle a `round()` cuántos decimales quiero. **Pero si no le digo asume que es cero**.
 
-```{r}
+
+```r
 round(9.556789, digits = 2)
+```
+
+```
+## [1] 9.56
 ```
 
 --
@@ -761,8 +815,13 @@ En este caso también puedo indicarlo de una manera más sencilla
 
 --
 
-```{r}
+
+```r
 round(9.556789, 2)
+```
+
+```
+## [1] 9.56
 ```
 --
 
@@ -772,7 +831,8 @@ Como no hay ambigüedad, R lo entiende.
 
 Para obtener ayuda sobre una función lo hacemos de la siguiente forma:
 
-```{r, eval = F}
+
+```r
 ?round
 # o
 help(round) # help también es una función
@@ -836,10 +896,11 @@ Veamos algunos ejemplos.
 
 --
 
-```{r, eval = T}
-nombres <- c("hans", "claudia", "sara", "pablo")
-a <- c(1, 5, 6, 9:12)
-b <- c(1, 2, 3, "gato")
+
+```r
+nombres &lt;- c("hans", "claudia", "sara", "pablo")
+a &lt;- c(1, 5, 6, 9:12)
+b &lt;- c(1, 2, 3, "gato")
 ```
 
 --
@@ -871,12 +932,13 @@ Existen 5 tipos de vectores en R:
 
 --
 
-```{r}
-character <- c("gato", "perro")
-numeric <- c(8, 15.9) # reales o decimales
-integer <-  c(2L, 4L) # L indica que son enteros
-logical <- c(TRUE, FALSE, TRUE) 
-complex <- 3 + 4i # complejos
+
+```r
+character &lt;- c("gato", "perro")
+numeric &lt;- c(8, 15.9) # reales o decimales
+integer &lt;-  c(2L, 4L) # L indica que son enteros
+logical &lt;- c(TRUE, FALSE, TRUE) 
+complex &lt;- 3 + 4i # complejos
 ```
 
 --
@@ -884,9 +946,21 @@ complex <- 3 + 4i # complejos
 Podemos consultar cuál es el tipo de vector con `class()` o `typeof()`
 
 
-```{r}
+
+```r
 class(a)
+```
+
+```
+## [1] "numeric"
+```
+
+```r
 typeof(b)
+```
+
+```
+## [1] "character"
 ```
 
 --
@@ -907,17 +981,23 @@ background-position: 100% 0%
 
 Vimos que es posible crear vectores con la función "c".
 
-```{r}
-x <-c(1,2,3,4,5)
+
+```r
+x &lt;-c(1,2,3,4,5)
 ```
 
 --
 
 Una secuencia sencilla también podemos crearla de la siguiente manera.
 
-```{r}
-y <- 1:20
+
+```r
+y &lt;- 1:20
 y
+```
+
+```
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
 ```
 
 ---
@@ -946,8 +1026,9 @@ Recibe 4 argumentos: *from*, *to*, *length* y *by*.
 
 --
 
-```{r, eval = F}
-a <- seq(from = ¿?, to = ¿?, by = ¿?)
+
+```r
+a &lt;- seq(from = ¿?, to = ¿?, by = ¿?)
 ```
 
 --
@@ -955,8 +1036,9 @@ a <- seq(from = ¿?, to = ¿?, by = ¿?)
 .medium-par-red[¿Cómo crearían un vector que vaya del 1 al 10 y contenga 100 valores?]
 
 
-```{r, eval = F}
-b <- seq(from = ¿?, to = ¿?, length = ¿?)
+
+```r
+b &lt;- seq(from = ¿?, to = ¿?, length = ¿?)
 ```
 
 --
@@ -979,7 +1061,8 @@ R ofrece los siguientes operadores matemáticos
 
 --
 
-```{r, eval = F}
+
+```r
 x + y   # suma
 x - y   # resta
 x * y   # multiplicación
@@ -1013,13 +1096,20 @@ En general, cuando trabajamos con datos ordenados **nos interesa seleccionar uno
 
 --
 
-```{r}
-bandas_cl <- c("Los prisioneros", "Los Bunkers", 
+
+```r
+bandas_cl &lt;- c("Los prisioneros", "Los Bunkers", 
                "Los Ángeles Negros") 
-bandas_arg <- c("Pescado rabioso", "Spinetta Jade", 
+bandas_arg &lt;- c("Pescado rabioso", "Spinetta Jade", 
                 "Virus", "Soda Stereo")
-bandas <- c(bandas_cl, bandas_arg) # acá uno los dos vectores
+bandas &lt;- c(bandas_cl, bandas_arg) # acá uno los dos vectores
 bandas
+```
+
+```
+## [1] "Los prisioneros"    "Los Bunkers"        "Los Ángeles Negros"
+## [4] "Pescado rabioso"    "Spinetta Jade"      "Virus"             
+## [7] "Soda Stereo"
 ```
 
 --
@@ -1043,8 +1133,13 @@ Este número indica un **índice o posición** de los elementos al interior de u
 
 --
 
-```{r}
+
+```r
 bandas[5] # nos entrega el 5to elemento
+```
+
+```
+## [1] "Spinetta Jade"
 ```
 
 --
@@ -1058,18 +1153,24 @@ Tenemos .pur[diferentes alternativas para indicar posición]. Veamos ejemplos:
 --
 
 
-```{r}
+
+```r
 # primero creamos vectores
-numeros <- 20:40 
-nombres <- c("hans", "claudia", "sara", "pablo")
+numeros &lt;- 20:40 
+nombres &lt;- c("hans", "claudia", "sara", "pablo")
 ```
 
 --
 
 - Con un operador lógico 
 
-```{r}
-numeros[numeros>30]
+
+```r
+numeros[numeros&gt;30]
+```
+
+```
+##  [1] 31 32 33 34 35 36 37 38 39 40
 ```
 
 ---
@@ -1086,17 +1187,41 @@ background-position: 100% 0%
 
 - Con un vector numérico
 
-```{r}
+
+```r
 numeros[8]
+```
+
+```
+## [1] 27
+```
+
+```r
 nombres[c(1,2)]
+```
+
+```
+## [1] "hans"    "claudia"
 ```
 --
 
 - Con selección negativa (ej. vector[-1])
 
-```{r}
+
+```r
 nombres[-2]
+```
+
+```
+## [1] "hans"  "sara"  "pablo"
+```
+
+```r
 nombres[c(-3,-4)]
+```
+
+```
+## [1] "hans"    "claudia"
 ```
 ---
 
@@ -1131,7 +1256,7 @@ background-position: 100% 0%
 
 --
 
-.center[.medium-par-red[Recuerda que para crear objetos o asignar valores debes usar ** <-**]]
+.center[.medium-par-red[Recuerda que para crear objetos o asignar valores debes usar ** &lt;-**]]
 
 
 ---
@@ -1148,18 +1273,19 @@ background-position: 100% 0%
 
 **R** cuenta con operadores de comparación binaria.
 
-```{r, echo=TRUE, eval=FALSE}
-x < y    # menor que
-x > y    # mayor que
-x <= y   # menor o igual que
-x >= y   # mayor o igual que
+
+```r
+x &lt; y    # menor que
+x &gt; y    # mayor que
+x &lt;= y   # menor o igual que
+x &gt;= y   # mayor o igual que
 x == y   # igual a 
 x != y   # distinto a
 ```
 
 --
 
-👀: Nota que `==` permite comparar si dos valores son iguales. Ten cuidado de **NO** usar `=` que es interpretado como un operador de asignación (es como usar **<-**).
+👀: Nota que `==` permite comparar si dos valores son iguales. Ten cuidado de **NO** usar `=` que es interpretado como un operador de asignación (es como usar **&lt;-**).
 
 ---
 
@@ -1173,26 +1299,28 @@ background-position: 100% 0%
 
 Algunos ejemplos con números:
 
-```{r, echo=TRUE, eval=FALSE}
-x <- c(1,2,5)
-y <- c(4,4,3)
+
+```r
+x &lt;- c(1,2,5)
+y &lt;- c(4,4,3)
 x == y
-#> [1] FALSE FALSE FALSE
+#&gt; [1] FALSE FALSE FALSE
 x != y
-#> [1] TRUE TRUE TRUE
-x < y
-#> [1]  TRUE  TRUE FALSE
+#&gt; [1] TRUE TRUE TRUE
+x &lt; y
+#&gt; [1]  TRUE  TRUE FALSE
 ```
 
 --
 
 Ahora con caracteres:
 
-```{r, echo=TRUE, eval=FALSE}
-a <- c("izzy", "jazz", "tyler")
-b <- c("devon", "vanessa", "hilary")
-a < b   # orden alfabético
-#> [1] FALSE  TRUE FALSE
+
+```r
+a &lt;- c("izzy", "jazz", "tyler")
+b &lt;- c("devon", "vanessa", "hilary")
+a &lt; b   # orden alfabético
+#&gt; [1] FALSE  TRUE FALSE
 ```
 
 ---
@@ -1217,7 +1345,7 @@ Los operadores lógicos son muy usados para **extraer** información que **cumpl
 
 --
 
-.medium-par[Otros operadores muy importantes son "`|`" (o) y "`&`" (y).]
+.medium-par[Otros operadores muy importantes son "`|`" (o) y "`&amp;`" (y).]
 
 --
 
@@ -1237,18 +1365,24 @@ También podemos modificar elementos específicos de un vector.
 
 --
 
-```{r, echo=TRUE}
+
+```r
 # primero creamos un vector
-x <- 1:10
+x &lt;- 1:10
 ```
 
 --
 
 Podemos hacerlo indicando una posición 
 
-```{r, echo=TRUE}
-x[5] <- 0
+
+```r
+x[5] &lt;- 0
 x
+```
+
+```
+##  [1]  1  2  3  4  0  6  7  8  9 10
 ```
 
 --
@@ -1259,9 +1393,10 @@ O también podemos seleccionar los elementos a modificar con **operadores lógic
 
 .medium-par-red[¿Qué creen que hace esta sentencia?]
 
-```{r}
-x <- 1:10
-x[x > 5] <- x[x > 5] + 5
+
+```r
+x &lt;- 1:10
+x[x &gt; 5] &lt;- x[x &gt; 5] + 5
 ```
 
 ---
@@ -1290,10 +1425,18 @@ Podemos entender un data frame como un .pur[conjunto de vectores que tienen la m
 
 --
 
-```{r}
-curso <- data.frame(nombre = c("Klaus", "Juan", "Ignacio"),
+
+```r
+curso &lt;- data.frame(nombre = c("Klaus", "Juan", "Ignacio"),
                     notas = c(7, 7, 1))
 curso
+```
+
+```
+##    nombre notas
+## 1   Klaus     7
+## 2    Juan     7
+## 3 Ignacio     1
 ```
 
 .medium-par-red[La mayor parte de este curso se enfocará en cómo trabajar con este tipo de objetos en R.]
@@ -1317,13 +1460,21 @@ background-position: 100% 0%
 
 .medium-par-red[No pueden convivir tipos de datos diferentes dentro de una matriz.]
 
-```{r matrix, include=TRUE}
-curso <- matrix(c("Klaus", "Juan", "Ignacio", 7, 7, 1),
+
+```r
+curso &lt;- matrix(c("Klaus", "Juan", "Ignacio", 7, 7, 1),
                 nrow = 3,
                 ncol = 2)
-colnames(curso) <- c("nombre", "nota")
+colnames(curso) &lt;- c("nombre", "nota")
 
 curso
+```
+
+```
+##      nombre    nota
+## [1,] "Klaus"   "7" 
+## [2,] "Juan"    "7" 
+## [3,] "Ignacio" "1"
 ```
 
 --
@@ -1351,13 +1502,14 @@ A veces se les llama vectores genéricos, dado que soportan cualquier tipo de fo
 
 --
 
-```{r lista, echo=TRUE, eval=FALSE}
-a <- c(1,2,3,4,5)
-b <- c("rojo", "verde")
-c <-  data.frame(nom = "Klaus", "Juan",
+
+```r
+a &lt;- c(1,2,3,4,5)
+b &lt;- c("rojo", "verde")
+c &lt;-  data.frame(nom = "Klaus", "Juan",
                           nota = 7, 7)
 
-lista1 <- list(a,b,c)
+lista1 &lt;- list(a,b,c)
 ```
 
 --
@@ -1385,11 +1537,18 @@ Parecen vectores de caracteres y a veces se comportan de esa manera (porque **pe
 
 --
 
-```{r factores, echo=TRUE}
-ocupacion <- factor(x = c(1,2,3,1,2,1,3,4,1,5), 
+
+```r
+ocupacion &lt;- factor(x = c(1,2,3,1,2,1,3,4,1,5), 
        labels = c("profesor", "musico", "doctora",
                   "taxista", "pescador"))
 ocupacion
+```
+
+```
+##  [1] profesor musico   doctora  profesor musico   profesor doctora  taxista 
+##  [9] profesor pescador
+## Levels: profesor musico doctora taxista pescador
 ```
 
 --
@@ -1452,7 +1611,7 @@ background-position: 100% 0%
 
 --
 
-- Operadores lógicos (>, <, ==, ...)
+- Operadores lógicos (&gt;, &lt;, ==, ...)
 
 
 ---
@@ -1481,7 +1640,8 @@ Instalamos el paquete (.pur[nuestro primer paquete 😍])
 
 --
 
-```{r, eval = F}
+
+```r
 install.packages("guaguas")
 ```
 
@@ -1499,8 +1659,13 @@ Y luego lo cargamos en nuestra sesión (.pur[no basta con instalarlo para usarlo
 
 --
 
-```{r}
+
+```r
 library(guaguas)
+```
+
+```
+## Warning: package 'guaguas' was built under R version 4.0.4
 ```
 
 --
@@ -1509,26 +1674,9 @@ Es una base de .medium-par-red[alto interés sociológico]. 🧐
 
 --
 
-.center[<img src="imagenes/romane.PNG" heigth="400" width="600"/>]
+.center[&lt;img src="imagenes/romane.PNG" heigth="400" width="600"/&gt;]
 
-```{r, include= F, echo = F, warning=F, out.width = "700px", out.height="400px" , fig.align='center'}
-library(guaguas)
-library(dplyr)
-library(stringr)
-library(ggplot2)
-library(forcats)
-library(hrbrthemes)
-library(ggthemes)
 
-guaguas %>% 
-  filter(nombre %in% c("Milenka", "Branco", "Salomé"), anio > 1980) %>% 
-  ggplot(aes(anio, n, color = nombre)) + 
-  geom_line() +
-  scale_color_colorblind() +
-  labs(x = "año", y = "total inscripciones",
-       title = "Inscripciones de nombres de personajes\n de 'Romané'") +
-  theme_ipsum()
-```
 
 ---
 
@@ -1539,20 +1687,11 @@ background-position: 100% 0%
 # Volviendo a los *data frames*
 
 --
-</br>
+&lt;/br&gt;
 
-.center[<img src="imagenes/bsb.PNG" heigth="800" width="700"/>]
+.center[&lt;img src="imagenes/bsb.PNG" heigth="800" width="700"/&gt;]
 
-```{r, include= F, echo = F, warning=F, out.width = "700px", out.height="400px" , fig.align='center'}
-guaguas %>% 
-  filter(nombre %in% c("Brian", "Kevin", "Bryan", "Brayan")) %>% 
-  ggplot(aes(anio, n, color = fct_reorder2(nombre, anio, n))) +
-  geom_line() +
-  scale_color_colorblind() +
-  labs(x = "año", y = "total inscripciones", color = "nombre",
-       title = "El efecto 'Backstreet Boys'") +
-  theme_ipsum()
-```
+
 
 
 ---
@@ -1578,8 +1717,9 @@ Primero carguemos la base en nuestro **ambiente de trabajo**.
 
 --
 
-```{r}
-data <- guaguas
+
+```r
+data &lt;- guaguas
 ```
 
 --
@@ -1593,7 +1733,8 @@ Dado que la base viene con el paquete no es necesario cargarla, pero es mejor ac
 --
 
 
-```{r, eval=F}
+
+```r
 class(data)
 is.data.frame(data)
 dim(data)
@@ -1620,7 +1761,8 @@ También usando lenguaje *base* podemos pedir tablas de resumen.
 
 --
 
-```{r, eval=F}
+
+```r
 table(data$anio)
 table(data$nombre)
 ```
@@ -1631,8 +1773,15 @@ También podemos pedir la proporción, aplicando `prop.table()` sobre `table()`.
 
 --
 
-```{r}
+
+```r
 prop.table(table(data$sexo))
+```
+
+```
+## 
+##         F         M 
+## 0.5873115 0.4126885
 ```
 
 
@@ -1658,23 +1807,38 @@ Podemos seleccionar columnas por su posición.
 
 --
 
-```{r}
-data_2 <- data[,1]
+
+```r
+data_2 &lt;- data[,1]
 dim(data_2)
 ```
 
-```{r}
-data_3 <- data[,c(2:5)]
+```
+## [1] 84565     1
+```
+
+
+```r
+data_3 &lt;- data[,c(2:5)]
 dim(data_3)
+```
+
+```
+## [1] 84565     4
 ```
 
 --
 
 También podemos seleccionar por nombre de columna.
 
-```{r}
-data_4 <- data[,c("anio", "nombre", "n")]
+
+```r
+data_4 &lt;- data[,c("anio", "nombre", "n")]
 names(data_4)
+```
+
+```
+## [1] "anio"   "nombre" "n"
 ```
 
 ---
@@ -1695,16 +1859,30 @@ Se pueden seleccionar filas de distintas maneras.
 
 --
 
-```{r}
-data_5 <- data[data$anio==2019,]
+
+```r
+data_5 &lt;- data[data$anio==2019,]
 table(data_5$anio)
+```
+
+```
+## 
+## 2019 
+##  948
 ```
 
 --
 
-```{r}
-data_6 <- data[data$anio > 2010,]
+
+```r
+data_6 &lt;- data[data$anio &gt; 2010,]
 table(data_6$anio)
+```
+
+```
+## 
+## 2011 2012 2013 2014 2015 2016 2017 2018 2019 
+##  998  982  981  983  985  955  924  955  948
 ```
 
 --
@@ -1733,7 +1911,8 @@ Esta librería la vamos a utilizar .medium-par-red[muchísimo] en las próximas 
 
 --
 
-```{r, eval = F}
+
+```r
 install.packages("tidyverse")
 ```
 
@@ -1743,8 +1922,17 @@ Cargamos la librería.
 
 --
 
-```{r, message = F}
+
+```r
 library(tidyverse)
+```
+
+```
+## Warning: package 'tidyverse' was built under R version 4.0.3
+```
+
+```
+## Warning: package 'purrr' was built under R version 4.0.5
 ```
 
 --
@@ -1773,7 +1961,8 @@ Asi podemos ordenar el *data frame* por `anio`.
 
 --
 
-```{r, eval=F}
+
+```r
 arrange(data, anio)
 ```
 
@@ -1789,7 +1978,8 @@ Además **puede ordenarse por más de una variable**.
 
 --
 
-```{r, eval = F}
+
+```r
 arrange(data, desc(anio, n))
 ```
 
@@ -1825,11 +2015,7 @@ Con las herramientas para **seleccionar, filtrar y ordenar**, puedes hacerlo de 
 .center[.big-par[🧠]]
 
 
-```{r, echo=F, include=F}
-data %>% group_by(nombre) %>% 
-  summarise(suma = sum(n)) %>%
-  arrange(desc(suma))
-```
+
 
 ---
 
@@ -1863,7 +2049,7 @@ class: center, middle
 .linea-inferior[]
 
 
-<img src="imagenes/logo_portada2.png" width="200" />
+&lt;img src="imagenes/logo_portada2.png" width="200" /&gt;
 
 
 ## Capacitación en R y herramientas de productividad
@@ -1873,3 +2059,126 @@ class: center, middle
 ## Introducción y herramientas de exploración de datos
 
 ### Abril 2021
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
