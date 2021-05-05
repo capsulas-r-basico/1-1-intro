@@ -1499,7 +1499,7 @@ Y luego lo cargamos en nuestra sesión (.pur[no basta con instalarlo para usarlo
 
 --
 
-```{r}
+```{r, message=F, warning=F}
 library(guaguas)
 ```
 
@@ -1713,7 +1713,7 @@ Por supuesto, también se pueden seleccionar filas y columnas a la vez 🥳.
 
 --
 
-.medium-par-red[¿Cómo lo harían?] Hagamos algunos ejercicios para finalizar.
+.medium-par-red[¿Cómo lo harían?]
 
 ---
 
@@ -1733,7 +1733,7 @@ Esta librería la vamos a utilizar .medium-par-red[muchísimo] en las próximas 
 
 --
 
-```{r, eval = F}
+```{r, eval = F, message=F, warning=F}
 install.packages("tidyverse")
 ```
 
@@ -1743,7 +1743,7 @@ Cargamos la librería.
 
 --
 
-```{r, message = F}
+```{r, message = F, message=F, warning=F}
 library(tidyverse)
 ```
 
@@ -1793,6 +1793,11 @@ Además **puede ordenarse por más de una variable**.
 arrange(data, desc(anio, n))
 ```
 
+--
+
+Volveremos sobre la función `arrange()` en las próximas sesiones.
+
+
 ---
 
 background-image: url("imagenes/fondo2.PNG")
@@ -1823,13 +1828,6 @@ Con las herramientas para **seleccionar, filtrar y ordenar**, puedes hacerlo de 
 (3). .medium-par-red[bonus:] ¿Cuál es el nombre .medium-par-red[más usado] en Chile en todos los tiempos?
 
 .center[.big-par[🧠]]
-
-
-```{r, echo=F, include=F}
-data %>% group_by(nombre) %>% 
-  summarise(suma = sum(n)) %>%
-  arrange(desc(suma))
-```
 
 ---
 
